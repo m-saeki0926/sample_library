@@ -11,3 +11,21 @@ repositories {
     maven { url 'http://raw.github.com/m-saeki0926/sample_library/master/' }
 }
 ```
+
+# command
+
+```
+./gradlew assembleRelease
+```
+
+```
+tree app/build/outputs
+```
+
+```
+./gradlew uploadArchives
+```
+
+```
+tree repository
+```
